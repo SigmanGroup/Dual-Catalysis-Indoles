@@ -9,13 +9,13 @@ The files, directories, and their respective contents are listed below:
 2. `get_properties_ORCA.ipynb`: Jupyter notebook for extracting the stereoelectronic properties of the calculated indoles from ORCA output files. This notebook has been adapted from the original Gaussian version of the Sigman's group "GetProperties". For the
 original script, please visit the [original repository](https://github.com/SigmanGroup/GetProperties.git).
 
-3. GetPropertiesORCA: folder containing the python scripts needed to run the Jupyter notebook.
+3. `GetPropertiesORCA`: folder containing the python scripts needed to run the Jupyter notebook.
 
-4. example_files: folder containing some examples of the ORCA output files (OPT and SPC) and coordinates (.xyz) of calculated indoles to test the oxidation potential calculator scrit and the Jupyter notebook.
+4. `example_files`: folder containing some examples of the ORCA output files (OPT and SPC) and coordinates (.xyz) of calculated indoles to test the oxidation potential calculator scrit and the Jupyter notebook.
 
-5. results: folder containing the CSV / Excel files obtained from the Jupyter notebook.
+5. `results`: folder containing the CSV / Excel files obtained from the Jupyter notebook.
 
-6. README.md: instructions file.
+6. `README.md`: instructions file.
 
 ## Installation
 
@@ -60,7 +60,7 @@ To use the Python script `ORCA_oxidation_potential_calculator.py` to calculate t
 
 Use the notebook `get_properties_ORCA.ipynb` to collect the properties of the neutral indoles `S(number)`. Be sure to set your Jupyter kernel to `gpenv_312`. Please follow this checklist:
 
-1. Make sure that all the ORCA `S*_SPC.out`, `S*_SPC.xyz`, and `S*_OPT.out` files are present in the same folder as the Jupyter notebook. It is recommended to run the notebook in a clean folder containing only the ORCA files that should be analyzed, and not directly in the same folder used for the oxidation potential calculation. The notebook does not filter files by prefix; therefore, any undesired compatible file might be processed, possibly leading to property-extraction errors.
+1. Make sure that all the ORCA `S*_OPT.out`, `S*_SPC.out`, and `S*_SPC.xyz` files are present in the same working directory containing the Jupyter notebook and the `GetPropertiesORCA` folder. It is recommended to run the notebook in a clean folder containing only the ORCA files that should be analyzed, and not directly in the same folder previously used for the oxidation potential calculation. The notebook does not filter files by prefix; therefore, any unwanted compatible file might be processed, possibly leading to property-extraction errors.
 
 2. Follow the instructions provided in each cell of the notebook. The `.xyz` files will be converted into the corresponding `.mol` files, which will then be used for RDKit substructure matching and atom mapping.
 
