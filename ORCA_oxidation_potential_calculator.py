@@ -51,8 +51,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--output",
-        default="results.xlsx",
-        help="Output Excel file (default: results.xlsx)",
+        default="oxidation_potential_results.xlsx",
+        help="Output Excel file (default: oxidation_potential_results.xlsx)",
     )
     parser.add_argument(
         "--debug",
