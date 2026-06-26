@@ -4,9 +4,9 @@ This repository contains the code for calculating the oxidation potential of ind
 
 The files, directories, and their respective contents are listed below:
 
-1. ORCA_oxidation_potential_calculator.py: python script to calculate the oxidation potential of a series of indole compounds from the corresponding DFT calculations in ORCA.
+1. `ORCA_oxidation_potential_calculator.py`: python script to calculate the oxidation potential of a series of indole compounds from the corresponding DFT calculations in ORCA.
 
-2. get_properties_ORCA.ipynb: Jupyter notebook for extracting the stereoelectronic properties of the calculated indoles from ORCA output files. This notebook has been adapted from the original Gaussian version of the Sigman's group "GetProperties". For the
+2. `get_properties_ORCA.ipynb`: Jupyter notebook for extracting the stereoelectronic properties of the calculated indoles from ORCA output files. This notebook has been adapted from the original Gaussian version of the Sigman's group "GetProperties". For the
 original script, please visit the [original repository](https://github.com/SigmanGroup/GetProperties.git).
 
 3. GetPropertiesORCA: folder containing the python scripts needed to run the Jupyter notebook.
