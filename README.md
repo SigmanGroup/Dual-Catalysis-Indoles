@@ -66,6 +66,10 @@ Use the notebook `get_properties_ORCA.ipynb` to collect the properties of the ne
 
 3. Dedicated cells are provided at the end of the notebook to handle conformers and symmetric molecules.
 
+## Data availability
+
+The ORCA input files, output files, and molecular coordinates used in this work are available on Zenodo at DOI: [insert DOI].
+
 ## Contributors
 
 - Cristian Rosso, PhD

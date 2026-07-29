@@ -1,4 +1,36 @@
 #!/usr/bin/env python3
+"""
+ORCA oxidation potential calculator for indole compounds.
+
+Author: Cristian Rosso, PhD
+Affiliation: Sigman Lab, University of Utah (USA)
+Version: 1.0
+Created: December 2025
+Last update: July 2026
+
+Calculates oxidation potentials for paired neutral (S) and oxidized (O)
+indole structures from ORCA geometry-optimization (OPT) and single-point
+calculation (SPC) output files.
+
+Expected file names:
+    S<number>_OPT.out
+    S<number>_SPC.out
+    O<number>_OPT.out
+    O<number>_SPC.out
+
+The script extracts single-point energies, solvation free energies, and
+thermal free-energy corrections, calculates oxidation potentials versus
+SHE and SCE, and writes the results to an Excel workbook.
+
+Examples:
+    python3 ORCA_oxidation_potential_calculator.py
+    python3 ORCA_oxidation_potential_calculator.py --directory ./orca_files
+    python3 ORCA_oxidation_potential_calculator.py --output results.xlsx --debug
+
+Requires Python 3.10 or later and openpyxl.
+See README.md for installation details and complete usage instructions.
+"""
+
 from __future__ import annotations
 
 import argparse
