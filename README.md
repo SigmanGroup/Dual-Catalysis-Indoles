@@ -15,7 +15,11 @@ original script, please visit the [original repository](https://github.com/Sigma
 
 5. `results`: folder containing the CSV / Excel files obtained from the Jupyter notebook.
 
-6. `README.md`: instructions file.
+6. `xyz`: folder containing the XYZ coordinate files obtained from the DFT calculations.
+
+7. `Properties_ORCA_Indoles_LEC.xlsx`: Excel files containing all the properties extracted through the Jupyter notebook and the calculated oxidation potentials.
+
+8. `README.md`: instructions file.
 
 ## Installation
 
