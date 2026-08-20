@@ -1,6 +1,6 @@
 # Dual-Catalysis-Indoles
 
-This repository contains the code for calculating the oxidation potential of indole compounds and to extract their stereoelectronic properties for chemical space visualization and modeling. For in depth information, please refer to the manuscript and corresponding Supporting Information available at: (insert link)
+This repository contains the code for calculating the oxidation potential of indole compounds and to extract their stereoelectronic properties for chemical space visualization and modeling. For in depth information, please refer to the Manuscript and corresponding Supporting Information available at: (insert link)
 
 The files, directories, and their respective contents are listed below:
 
@@ -17,7 +17,7 @@ original script, please visit the [original repository](https://github.com/Sigma
 
 6. `xyz`: folder containing the XYZ coordinate files obtained from the DFT calculations.
 
-7. `Properties_ORCA_Indoles_LEC.xlsx`: Excel files containing all the properties extracted through the Jupyter notebook and the calculated oxidation potentials.
+7. `Properties_ORCA_Indoles_LEC.xlsx`: Excel files containing all the properties extracted through the Jupyter notebook and the calculated oxidation potentials for the indole library.
 
 8. `README.md`: instructions file.
 
@@ -35,7 +35,7 @@ The required environment for this project, named 'gpenv_312', is obtained from t
 
 3. Clone the repository.
 
-    `git clone https://github.com/cristianrosso92/Dual-Catalysis-Indoles.git`
+    `git clone https://github.com/SigmanGroup/Dual-Catalysis-Indoles.git`
 
 4. Navigate into the project directory.
 
@@ -69,10 +69,6 @@ Use the notebook `get_properties_ORCA.ipynb` to collect the properties of the ne
 2. Follow the instructions provided in each cell of the notebook. The `.xyz` files will be converted into the corresponding `.mol` files, which will then be used for RDKit substructure matching and atom mapping.
 
 3. Dedicated cells are provided at the end of the notebook to handle conformers and symmetric molecules.
-
-## Data availability
-
-The ORCA input files, output files, and molecular coordinates used in this work are available on Zenodo at DOI: [insert DOI].
 
 ## Contributors
 
