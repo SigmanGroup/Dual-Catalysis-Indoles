@@ -15,11 +15,15 @@ original script, please visit the [original repository](https://github.com/Sigma
 
 5. `results`: folder containing the CSV / Excel files obtained from the Jupyter notebook.
 
-6. `xyz`: folder containing the XYZ coordinate files obtained from the DFT calculations.
+6. `xyz_indoles`: folder containing the XYZ coordinate files of indole substrates obtained from the DFT calculations.
 
-7. `Properties_ORCA_Indoles_LEC.xlsx`: Excel files containing all the properties extracted through the Jupyter notebook and the calculated oxidation potentials for the indole library.
+7. `xyz_oxindoles`: folder containing the XYZ coordinate files of oxindole intermediates obtained from the DFT calculations.
 
-8. `README.md`: instructions file.
+8. `Properties_ORCA_Indoles_LEC.xlsx`: Excel files containing all the properties extracted through the Jupyter notebook and the calculated oxidation potentials for the indole library.
+
+9. `Properties_ORCA_Oxindoles_LEC.xlsx`: Excel files containing all the properties extracted through the Jupyter notebook and the calculated oxidation potentials for the oxindole derivatives used for MLR analysis.
+
+10. `README.md`: instructions file.
 
 ## Installation
 
